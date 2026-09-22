@@ -1,6 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
+    overflow: hidden;
     background: #050505;
     font-family: Arial, sans-serif;
     color: white;
@@ -10,13 +11,12 @@ body {
 .app {
 
     width:95%;
-    height:92vh;
-    margin: auto;
-    margin-top: 5vh;
+    height:100vh;
+    margin:auto;
 
-    background: #111111;
+    background:#111111;
 
-    border-radius: 18px;
+    border-radius:18px;
 
     display:flex;
     flex-direction:column;
@@ -140,6 +140,8 @@ body {
     justify-content:center;
 
     align-items:center;
+
+    overflow:hidden;
 
 }
 
