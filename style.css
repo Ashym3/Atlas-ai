@@ -80,11 +80,9 @@ body {
 /* Main section */
 
 .main {
-
     flex:1;
-
     display:flex;
-
+    min-height:0;
 }
 
 
@@ -136,6 +134,12 @@ body {
     background:#050505;
 
     overflow:hidden;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
 
 }
 
@@ -195,6 +199,8 @@ body {
     background:#050505;
 
     border-top:1px solid #222;
+
+    flex-shrink:0;
 
 }
 
