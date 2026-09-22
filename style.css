@@ -9,10 +9,10 @@ body {
 
 
 .app {
-
     width:95%;
-    height:100vh;
+    height:95vh;
     margin:auto;
+    margin-top:2.5vh;
 
     background:#111111;
 
