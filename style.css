@@ -135,16 +135,17 @@ body {
 
     background:#050505;
 
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
     overflow:hidden;
 
 }
 
+#chat {
+
+    display:flex;
+
+    flex-direction:column;
+
+}
 
 
 /* Messages */
