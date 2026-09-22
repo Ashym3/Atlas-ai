@@ -238,3 +238,36 @@ body {
     background:#1d4ed8;
 
 }
+.welcome {
+
+    height:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+}
+
+
+.welcome h1 {
+
+    font-size:40px;
+
+    font-weight:400;
+
+}
+
+
+.welcome p {
+
+    color:#888;
+
+    font-size:20px;
+
+}
